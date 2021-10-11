@@ -1,0 +1,244 @@
+/* Navigation*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  padding:5px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+  transition: 0.6s;
+  text-transform: uppercase;
+  background-color: rgb(218, 21, 21);
+}
+
+.logo {
+  width:;
+  height: auto;
+}
+
+
+.Menu {
+  display: flex;
+  align-items: center;
+}
+
+.Menu li {
+  list-style: none;
+}
+
+.Menu li a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.Menu li a::after {
+  content: '';
+  width: 0%;
+  background-color: none;
+  position: absolute;
+  border-radius: 5px;
+  transition: all 500ms ease;
+}
+li a:hover {
+  color: rgb(219, 217, 217);
+}
+li a:hover::after {
+  bottom: -20%;
+  left: 0%;
+  width: 100%;
+  height: 3px;
+  margin: auto;
+  border-radius: 150px;
+  background-color:rgb(236, 229, 214);
+}
+/* Navigation*/
+
+/* Lots d'equipe*/
+.table-1{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 30vh;
+    /* box-shadow: 0 0 15px 0;
+    overflow: hidden; */
+
+  }
+  
+ .table-1 table{
+   border: none;
+ }
+th.head{
+  text-align: center;
+  padding: 5px 5px 15px 35px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+td.tirage {
+  margin-top: -15px;
+}
+td.tirage img{
+  margin-right: 15%;
+  z-index: 1000;
+  transition: 2s; 
+ 
+}
+  .button-1 input{
+    width:10%;
+    height:40px; 
+    border-radius: 5px 25px;
+    background-color: wheat;
+    margin-left: 45%;
+    margin-top: 3%;
+  }
+  .button-1 input:hover{
+    background-color: rgb(223, 29, 29);
+  }
+
+  /*table classement */
+  /*table Groupe*/
+
+
+  .table-2{
+    margin-left:5%;
+    margin-top: 3%;
+
+
+  }
+  .table-2 table{
+   border: none;
+  }
+  .table-2 table th{
+   width: 5%;
+   border-radius: 10px 25px 10px;
+   background-color: blue;
+   box-shadow: 0 0 15px 0;
+	overflow: hidden;
+
+
+  }
+  .table-2 table td{
+    /* border: none; */
+    text-align: center;
+    height: 7vh;
+    border-radius: 10px 20px 30px 40px;
+
+  }
+  .table-3{
+    margin-left:30%;
+    margin-top: 3%; 
+    border: none; 
+  }
+  .table-3 table{
+    border: none; 
+  }
+  /* .table-3 table th{
+    height: 10%;
+    width: 29%; 
+  } */
+ 
+
+/* Gestion des tables de score*/
+.matchA{
+  background-color: rgb(236, 22, 22);
+  width: 30%;
+  margin-left: 30%;
+  border-radius: 20px;
+  box-shadow: 0 0 15px 5px;
+	overflow: hidden;
+  z-index: 1000;
+  transition: 3s; 
+}
+.matchA h2{
+   text-align: center;
+  color: rgb(9, 9, 240);
+  text-shadow: cornsilk;
+  /* text-decoration: underline; */
+  font-family: 'Times New Roman', Times, serif;
+  /* z-index: 1000;
+  transition: 3s;  */
+
+}
+
+/* .table-3 table td{
+} */
+
+
+
+
+  /*footer*/
+  footer{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0, 0, 0,0.4);
+}
+footer h4{
+    text-align: center;
+}
+.one{
+    display: flex; 
+    padding: 30px;
+}
+.two h3{
+    margin-left: 10px;
+    margin-top: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(225, 230, 235);
+}
+.tree{
+    margin-left: 20px;
+}
+.tree img{
+    margin-left: 70px;
+    width: 30px;
+    height: 30px;
+}
+.tree p{
+ margin-left: 70px;
+}
+
+.for img{
+    margin-left:70px;
+    width: 30px;
+    height: 30px;
+}
+.six img{
+    width: 30px;
+    height: 30px;
+    margin-left: 70px;
+
+}
+.six p{
+    margin-left: 70px;
+}
+
+.for p{
+    margin-left: 70px;
+   }
+   .seven input{
+    margin-left: 150px; 
+    margin-top: 25px;
+    background-color: rgb(219, 211, 208); 
+    border-radius: 10px;
+   }
+   .seven button{
+       background-color: rgb(151, 142, 142);
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       border: solid 2px;
+
+   }

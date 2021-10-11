@@ -1,0 +1,12 @@
+Div.table{
+    display: :table;
+}
+form.tr,Div.tr{
+    display:table-row;
+}
+Span.td{
+    display: table-cell;
+}
+/* body{
+    background-color: red;
+} */
